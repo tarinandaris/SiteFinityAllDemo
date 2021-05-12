@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using SitefinityWebApp.Helper;
 using SitefinityWebApp.Mvc.Models;
 using System;
 using System.Net.Http;
@@ -16,7 +17,7 @@ namespace SitefinityWebApp.Mvc.Controllers
 
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("https://localhost:44373/");
+                client.BaseAddress = new Uri(ConfigurationHelper.ClientBaseAddress);
                 var response = client.GetAsync("api/Personal/GetPersonalDataById?IDName=1");
                 response.Wait();
                 var stringResult = response.Result.Content.ReadAsStringAsync().Result;

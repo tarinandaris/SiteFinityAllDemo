@@ -22,3 +22,15 @@ D:\Project\SiteFinity\AllProject\WebAPI\Repositories\obj\Debug\Repositories.cspr
 D:\Project\SiteFinity\AllProject\WebAPI\Repositories\obj\Debug\Repositories.csproj.CopyComplete
 D:\Project\SiteFinity\AllProject\WebAPI\Repositories\obj\Debug\Repositories.dll
 D:\Project\SiteFinity\AllProject\WebAPI\Repositories\obj\Debug\Repositories.pdb
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\Repositories.dll.config
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\Repositories.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\Repositories.pdb
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\EntityFramework.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\EntityFramework.xml
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\obj\Debug\Repositories.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Repositories\obj\Debug\Repositories.pdb

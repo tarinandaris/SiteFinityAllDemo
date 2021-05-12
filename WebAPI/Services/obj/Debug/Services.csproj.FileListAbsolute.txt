@@ -22,3 +22,15 @@ D:\Project\SiteFinity\AllProject\WebAPI\Services\obj\Debug\Services.csproj.CoreC
 D:\Project\SiteFinity\AllProject\WebAPI\Services\obj\Debug\Services.csproj.CopyComplete
 D:\Project\SiteFinity\AllProject\WebAPI\Services\obj\Debug\Services.dll
 D:\Project\SiteFinity\AllProject\WebAPI\Services\obj\Debug\Services.pdb
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\Services.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\Services.pdb
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\Repositories.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\EntityFramework.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\Repositories.pdb
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\Repositories.dll.config
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\bin\Debug\EntityFramework.xml
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\obj\Debug\Services.csproj.CopyComplete
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\obj\Debug\Services.dll
+D:\Project\Testing\Testing2\SiteFinityAllDemo\WebAPI\Services\obj\Debug\Services.pdb

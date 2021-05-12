@@ -1242,6 +1242,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Helper\ConfigurationHelper.cs" />
     <Compile Include="Mvc\Controllers\PersonalController.cs" />
     <Compile Include="Mvc\Models\Personal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

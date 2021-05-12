@@ -36,7 +36,7 @@ namespace ASP
         }
         public override void Execute()
         {
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("<div");
 
 WriteLiteral(" class=\"container\"");
 
@@ -73,21 +73,21 @@ WriteLiteral(" class=\"form-control-plaintext\"");
 
 WriteLiteral(" id=\"staticEmail\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 570), Tuple.Create("\"", 610)
+WriteAttribute("value", Tuple.Create(" value=\"", 457), Tuple.Create("\"", 497)
             
-            #line 19 "..\..\MVC\Views\Personal\Index.cshtml"
-                    , Tuple.Create(Tuple.Create("", 578), Tuple.Create<System.Object, System.Int32>(Model.FirstName
-            
-            #line default
-            #line hidden
-, 578), false)
-            
-            #line 19 "..\..\MVC\Views\Personal\Index.cshtml"
-                                    , Tuple.Create(Tuple.Create(" ", 594), Tuple.Create<System.Object, System.Int32>(Model.LastName
+            #line 13 "..\..\MVC\Views\Personal\Index.cshtml"
+                    , Tuple.Create(Tuple.Create("", 465), Tuple.Create<System.Object, System.Int32>(Model.FirstName
             
             #line default
             #line hidden
-, 595), false)
+, 465), false)
+            
+            #line 13 "..\..\MVC\Views\Personal\Index.cshtml"
+                                    , Tuple.Create(Tuple.Create(" ", 481), Tuple.Create<System.Object, System.Int32>(Model.LastName
+            
+            #line default
+            #line hidden
+, 482), false)
 );
 
 WriteLiteral(">\r\n            </div>\r\n        </div>\r\n        <div");
@@ -114,14 +114,14 @@ WriteLiteral(" class=\"form-control-plaintext\"");
 
 WriteLiteral(" id=\"staticEmail\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 893), Tuple.Create("\"", 913)
+WriteAttribute("value", Tuple.Create(" value=\"", 780), Tuple.Create("\"", 800)
             
-            #line 25 "..\..\MVC\Views\Personal\Index.cshtml"
-                    , Tuple.Create(Tuple.Create("", 901), Tuple.Create<System.Object, System.Int32>(Model.Hobby
+            #line 19 "..\..\MVC\Views\Personal\Index.cshtml"
+                    , Tuple.Create(Tuple.Create("", 788), Tuple.Create<System.Object, System.Int32>(Model.Hobby
             
             #line default
             #line hidden
-, 901), false)
+, 788), false)
 );
 
 WriteLiteral(">\r\n            </div>\r\n        </div>\r\n        <div");
@@ -148,14 +148,14 @@ WriteLiteral(" class=\"form-control-plaintext\"");
 
 WriteLiteral(" id=\"staticEmail\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1198), Tuple.Create("\"", 1220)
+WriteAttribute("value", Tuple.Create(" value=\"", 1085), Tuple.Create("\"", 1107)
             
-            #line 31 "..\..\MVC\Views\Personal\Index.cshtml"
-                   , Tuple.Create(Tuple.Create("", 1206), Tuple.Create<System.Object, System.Int32>(Model.Address
+            #line 25 "..\..\MVC\Views\Personal\Index.cshtml"
+                   , Tuple.Create(Tuple.Create("", 1093), Tuple.Create<System.Object, System.Int32>(Model.Address
             
             #line default
             #line hidden
-, 1206), false)
+, 1093), false)
 );
 
 WriteLiteral(">\r\n            </div>\r\n        </div>\r\n        <div");
@@ -182,19 +182,17 @@ WriteLiteral(" class=\"form-control-plaintext\"");
 
 WriteLiteral(" id=\"staticEmail\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1502), Tuple.Create("\"", 1520)
+WriteAttribute("value", Tuple.Create(" value=\"", 1389), Tuple.Create("\"", 1407)
             
-            #line 37 "..\..\MVC\Views\Personal\Index.cshtml"
-                   , Tuple.Create(Tuple.Create("", 1510), Tuple.Create<System.Object, System.Int32>(Model.Job
+            #line 31 "..\..\MVC\Views\Personal\Index.cshtml"
+                   , Tuple.Create(Tuple.Create("", 1397), Tuple.Create<System.Object, System.Int32>(Model.Job
             
             #line default
             #line hidden
-, 1510), false)
+, 1397), false)
 );
 
-WriteLiteral(">\r\n            </div>\r\n        </div>\r\n    </form>\r\n    ");
-
-WriteLiteral("\r\n</div>");
+WriteLiteral(">\r\n            </div>\r\n        </div>\r\n    </form>\r\n</div>");
 
         }
     }
