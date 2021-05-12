@@ -1,0 +1,2275 @@
+----------------------------------------
+ActivityId: 0c24a480-531b-4150-b85b-43d864e04c4b
+
+Timestamp: 5/11/2021 2:10:55 AM
+
+Message: HandlingInstanceID: 1b706408-3e09-409e-95a3-366fd480bcc7
+An exception of type 'System.AggregateException' occurred and was caught.
+-------------------------------------------------------------------------
+05/11/2021 10:10:55
+Type : System.AggregateException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : One or more errors occurred.
+Source : mscorlib
+Help link : 
+InnerExceptions : System.Collections.ObjectModel.ReadOnlyCollection`1[System.Exception]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowIfExceptional(Boolean)
+HResult : -2146233088
+Stack Trace :    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at SitefinityWebApp.Mvc.Controllers.PersonalController.Index() in D:\Project\SiteFinity\SiteFinityApp\SiteFinityDemo\Mvc\Controllers\PersonalController.cs:line 21
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_0.<InvokeActionMethodWithFilters>b__0()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:10:55 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/home/Action/Edit/en
+	Inner Exception
+	---------------
+	Type : System.Net.Http.HttpRequestException, System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : An error occurred while sending the request.
+	Source : 
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : 
+	HResult : -2146233088
+	Stack Trace : The stack trace is unavailable.
+		Inner Exception
+		---------------
+		Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Unable to connect to the remote server
+		Source : System
+		Help link : 
+		Status : ConnectFailure
+		Response : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+		HResult : -2146233079
+		Stack Trace :    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+		   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+
+			Inner Exception
+			---------------
+			Type : System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No connection could be made because the target machine actively refused it 127.0.0.1:44373
+			Source : System
+			Help link : 
+			ErrorCode : 10061
+			SocketErrorCode : ConnectionRefused
+			NativeErrorCode : 10061
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void InternalEndConnect(System.IAsyncResult)
+			HResult : -2147467259
+			Stack Trace :    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+			   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+			   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:12:54 AM
+
+Message: HandlingInstanceID: ed8911bb-f7f8-4be8-85d0-ed808d2e2153
+An exception of type 'System.AggregateException' occurred and was caught.
+-------------------------------------------------------------------------
+05/11/2021 10:12:54
+Type : System.AggregateException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : One or more errors occurred.
+Source : mscorlib
+Help link : 
+InnerExceptions : System.Collections.ObjectModel.ReadOnlyCollection`1[System.Exception]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowIfExceptional(Boolean)
+HResult : -2146233088
+Stack Trace :    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at SitefinityWebApp.Mvc.Controllers.PersonalController.Index() in D:\Project\SiteFinity\SiteFinityApp\SiteFinityDemo\Mvc\Controllers\PersonalController.cs:line 21
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_0.<InvokeActionMethodWithFilters>b__0()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:12:54 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/home/Action/Edit/en
+	Inner Exception
+	---------------
+	Type : System.Net.Http.HttpRequestException, System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : An error occurred while sending the request.
+	Source : 
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : 
+	HResult : -2146233088
+	Stack Trace : The stack trace is unavailable.
+		Inner Exception
+		---------------
+		Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Unable to connect to the remote server
+		Source : System
+		Help link : 
+		Status : ConnectFailure
+		Response : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+		HResult : -2146233079
+		Stack Trace :    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+		   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+
+			Inner Exception
+			---------------
+			Type : System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No connection could be made because the target machine actively refused it 127.0.0.1:44373
+			Source : System
+			Help link : 
+			ErrorCode : 10061
+			SocketErrorCode : ConnectionRefused
+			NativeErrorCode : 10061
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void InternalEndConnect(System.IAsyncResult)
+			HResult : -2147467259
+			Stack Trace :    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+			   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+			   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:13:49 AM
+
+Message: HandlingInstanceID: 9a0446a2-d26b-4f0e-bc11-a9bb7208bce7
+An exception of type 'System.AggregateException' occurred and was caught.
+-------------------------------------------------------------------------
+05/11/2021 10:13:49
+Type : System.AggregateException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : One or more errors occurred.
+Source : mscorlib
+Help link : 
+InnerExceptions : System.Collections.ObjectModel.ReadOnlyCollection`1[System.Exception]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowIfExceptional(Boolean)
+HResult : -2146233088
+Stack Trace :    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at SitefinityWebApp.Mvc.Controllers.PersonalController.Index() in D:\Project\SiteFinity\SiteFinityApp\SiteFinityDemo\Mvc\Controllers\PersonalController.cs:line 21
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_0.<InvokeActionMethodWithFilters>b__0()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:13:49 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/home/Action/Edit/en
+	Inner Exception
+	---------------
+	Type : System.Net.Http.HttpRequestException, System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : An error occurred while sending the request.
+	Source : 
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : 
+	HResult : -2146233088
+	Stack Trace : The stack trace is unavailable.
+		Inner Exception
+		---------------
+		Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Unable to connect to the remote server
+		Source : System
+		Help link : 
+		Status : ConnectFailure
+		Response : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+		HResult : -2146233079
+		Stack Trace :    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+		   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+
+			Inner Exception
+			---------------
+			Type : System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No connection could be made because the target machine actively refused it 127.0.0.1:44373
+			Source : System
+			Help link : 
+			ErrorCode : 10061
+			SocketErrorCode : ConnectionRefused
+			NativeErrorCode : 10061
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void InternalEndConnect(System.IAsyncResult)
+			HResult : -2147467259
+			Stack Trace :    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+			   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+			   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:29880
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:16:59 AM
+
+Message: HandlingInstanceID: da4457af-73bb-4ced-a7f8-7d4ac78046d1
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+05/11/2021 10:16:59
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageDraftControl item with id 1f8cc3bf-a2d3-48cd-b0c2-0305c08434d0 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_3c6a620206d345b7a3356e37557ad1dc.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.ChangeIndex(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:16:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22180
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:17:14 AM
+
+Message: HandlingInstanceID: 44a4142a-6fd7-4de9-878c-2c448ecb1e74
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+05/11/2021 10:17:14
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageDraftControl item with id 1f8cc3bf-a2d3-48cd-b0c2-0305c08434d0 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_3c6a620206d345b7a3356e37557ad1dc.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DeleteControl(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:17:14 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1420
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:33:51 AM
+
+Message: HandlingInstanceID: b57062e3-e615-419b-870f-d271488e04ed
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/11/2021 10:33:51
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:33:51 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/adminapp/pages/(home/Action/Edit/en/dialog:confirm/editWidgetPropsBasic)
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:41752
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:33:59 AM
+
+Message: HandlingInstanceID: ffd3c12f-f58a-4971-ab13-495ef624f3ca
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/11/2021 10:33:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:33:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/adminapp/pages/(home/Action/Edit/en/dialog:confirm/editWidgetPropsBasic)
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7380
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 2:34:00 AM
+
+Message: HandlingInstanceID: 940f9206-e10a-4c2f-9546-125a55ae9634
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/11/2021 10:34:00
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateInputIfRequiredByConfig()
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:34:00 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/adminapp/pages/(home/Action/Edit/en/dialog:confirm/filePicker)
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7380
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a91c790b-005f-4250-9f4e-735a0206dc6f
+
+Timestamp: 5/11/2021 2:36:14 AM
+
+Message: HandlingInstanceID: 2260a574-dbdb-4b87-82ca-390403badae4
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/11/2021 10:36:14
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Licensing.Model.UserActivity GetUserActivity(System.Guid, System.String)
+HResult : -2146232828
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessUserActivityProvider_6154b65570274f9e9dbaf21d0d1a0294.GetUserActivity(Guid userId, String providerName)
+   at Telerik.Sitefinity.Security.UserActivityBuffer.FlushInDatabase(IDictionary`2 userActivitiesInternal)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 2:36:14 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651714357693653
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Error executing query: Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT  TOP(??T) a.[user_id] AS COL1, a.[is_backend_user] AS COL2, a.[is_logged_in] AS COL3, a.[last_activity_date] AS COL4, a.[last_login_date] AS COL5, a.[login_ip] AS COL6, a.[provider_name] AS COL7, a.[token_id] AS COL8 FROM [sf_lic_user_activity] a WHERE a.[user_id] = ?                                       AND a.[provider_name] = ?                                        Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+	Reason : Runtime
+	CanRetry : False
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.executeQueryAll(ApplicationContext context, ImmutableQueryDetails query, CompiledQuery compiledQuery, QueryParameters parameters, Int32 skip, Int32 take)
+	   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.getAllQueryResults(CompiledQuery cq, QueryParameters parameters, Int32 skip, Int32 take)
+	   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Resolve()
+	   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+	   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+	   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+	   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+	   at OpenAccessRuntime.ListEnumerator.MoveNext()
+	   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQuerySingle[TResult,T](ChainedContext context, Expression expression, QueryableCategory before, Int32& found, Int32 elemAt, Boolean single, Boolean diffType)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Connection has been closed.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 2004344493
+		ArrayBindIndex : -1
+		Number : 2004344493
+		ObjectId : 
+		Description : Connection has been closed.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+		   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+		   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : 7a747f4d-e9dc-4b05-a00f-6eaaa7aedf73
+			Class : 20
+			LineNumber : 0
+			Number : -1
+			Procedure : 
+			Server : MTNB708\MTNB708
+			State : 0
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+			   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+			   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+			   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+			   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+			   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+			   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+			   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+			   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+			   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+			   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:35572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a712902f-b024-4f3d-8428-5362d02100ff
+
+Timestamp: 5/11/2021 2:41:22 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651743992001359
+
+ProcessId: 25764
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:36280
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dd08729d-9e7d-42cd-9afd-6f5867fff23e
+
+Timestamp: 5/11/2021 4:34:21 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651810959554625
+
+ProcessId: 1864
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 4:48:22 AM
+
+Message: HandlingInstanceID: ba5839ef-c6c1-4a85-a6b0-34ab8f815caa
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+05/11/2021 12:48:22
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardPageDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardPageDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ValidateChange(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive, Boolean validateChange)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 4:48:22 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651810959554625
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Page/0310fa0c-df6a-4ee5-b29a-50204c08cd8e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651810959554625
+
+ProcessId: 1864
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24996
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/11/2021 4:48:23 AM
+
+Message: HandlingInstanceID: 956532ad-2d71-4ae5-a66c-b1d00d011515
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+05/11/2021 12:48:23
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardPageDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardPageDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ValidateChange(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive, Boolean validateChange)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 4:48:23 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651810959554625
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Page/0310fa0c-df6a-4ee5-b29a-50204c08cd8e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651810959554625
+
+ProcessId: 1864
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24996
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6d7fef77-cb7a-49aa-b324-51c7e37871fa
+
+Timestamp: 5/11/2021 5:08:26 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651831953513811
+
+ProcessId: 25044
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20832
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2f6ebe40-0a88-48ea-ab38-ed04caa1b395
+
+Timestamp: 5/11/2021 5:08:42 AM
+
+Message: HandlingInstanceID: cceea7c9-7c48-410a-a721-d5dd173bded6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/11/2021 13:08:42
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 5:08:42 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651831953513811
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651831953513811
+
+ProcessId: 25044
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13616
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f1726de8-96ba-41af-9320-4b99456a04f7
+
+Timestamp: 5/11/2021 5:12:16 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651834258658655
+
+ProcessId: 732
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18416
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cdfe1a07-4cb8-4d70-a2b3-02bdd64aa191
+
+Timestamp: 5/11/2021 5:39:01 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651850608188907
+
+ProcessId: 9544
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18916
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 193b8cc0-2d8d-4f45-bf4a-64387314445d
+
+Timestamp: 5/11/2021 5:39:13 AM
+
+Message: HandlingInstanceID: f5868ba3-44c2-4a1c-bfd0-e9b79fa6272d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/11/2021 13:39:13
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 5:39:13 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651850608188907
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651850608188907
+
+ProcessId: 9544
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21624
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d9a83748-4176-4e0f-be58-12e0544b5962
+
+Timestamp: 5/11/2021 5:41:44 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651852446004948
+
+ProcessId: 13652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20524
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 29e15a9d-033e-4fd0-95dd-d06151c5467b
+
+Timestamp: 5/11/2021 8:42:50 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651961111963814
+
+ProcessId: 2132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bebc9c90-3a57-46eb-a7e9-e00ad6878010
+
+Timestamp: 5/11/2021 8:47:02 AM
+
+Message: HandlingInstanceID: cece29d9-104f-4cbd-9e60-36c4c9ad192b
+An exception of type 'System.AggregateException' occurred and was caught.
+-------------------------------------------------------------------------
+05/11/2021 16:47:02
+Type : System.AggregateException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : One or more errors occurred.
+Source : mscorlib
+Help link : 
+InnerExceptions : System.Collections.ObjectModel.ReadOnlyCollection`1[System.Exception]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowIfExceptional(Boolean)
+HResult : -2146233088
+Stack Trace :    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at SitefinityWebApp.Mvc.Controllers.PersonalController.Index() in D:\Project\SiteFinity\SiteFinityApp\SiteFinityDemo\Mvc\Controllers\PersonalController.cs:line 21
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_0.<InvokeActionMethodWithFilters>b__0()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 8:47:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651961111963814
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/home/Action/Edit/en
+	Inner Exception
+	---------------
+	Type : System.Net.Http.HttpRequestException, System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : An error occurred while sending the request.
+	Source : 
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : 
+	HResult : -2146233088
+	Stack Trace : The stack trace is unavailable.
+		Inner Exception
+		---------------
+		Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Unable to connect to the remote server
+		Source : System
+		Help link : 
+		Status : ConnectFailure
+		Response : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+		HResult : -2146233079
+		Stack Trace :    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+		   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+
+			Inner Exception
+			---------------
+			Type : System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No connection could be made because the target machine actively refused it 127.0.0.1:44373
+			Source : System
+			Help link : 
+			ErrorCode : 10061
+			SocketErrorCode : ConnectionRefused
+			NativeErrorCode : 10061
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void InternalEndConnect(System.IAsyncResult)
+			HResult : -2147467259
+			Stack Trace :    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+			   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+			   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651961111963814
+
+ProcessId: 2132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bb2b0cc9-97a1-4a30-a09c-cbca963ef29c
+
+Timestamp: 5/11/2021 8:47:17 AM
+
+Message: HandlingInstanceID: a8b76392-bf01-45dd-a41e-3c0cf8a657c0
+An exception of type 'System.AggregateException' occurred and was caught.
+-------------------------------------------------------------------------
+05/11/2021 16:47:17
+Type : System.AggregateException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : One or more errors occurred.
+Source : mscorlib
+Help link : 
+InnerExceptions : System.Collections.ObjectModel.ReadOnlyCollection`1[System.Exception]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowIfExceptional(Boolean)
+HResult : -2146233088
+Stack Trace :    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at SitefinityWebApp.Mvc.Controllers.PersonalController.Index() in D:\Project\SiteFinity\SiteFinityApp\SiteFinityDemo\Mvc\Controllers\PersonalController.cs:line 21
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_0.<InvokeActionMethodWithFilters>b__0()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 8:47:17 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651961111963814
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/home/Action/Preview
+	Inner Exception
+	---------------
+	Type : System.Net.Http.HttpRequestException, System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : An error occurred while sending the request.
+	Source : 
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : 
+	HResult : -2146233088
+	Stack Trace : The stack trace is unavailable.
+		Inner Exception
+		---------------
+		Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Unable to connect to the remote server
+		Source : System
+		Help link : 
+		Status : ConnectFailure
+		Response : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+		HResult : -2146233079
+		Stack Trace :    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+		   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+
+			Inner Exception
+			---------------
+			Type : System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No connection could be made because the target machine actively refused it 127.0.0.1:44373
+			Source : System
+			Help link : 
+			ErrorCode : 10061
+			SocketErrorCode : ConnectionRefused
+			NativeErrorCode : 10061
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void InternalEndConnect(System.IAsyncResult)
+			HResult : -2147467259
+			Stack Trace :    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+			   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+			   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651961111963814
+
+ProcessId: 2132
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24300
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 11/05/2021 09:17:58
+
+Message: HandlingInstanceID: 330e5d7f-05b9-4fcd-8f64-7402dce12cfa
+An exception of type 'Telerik.OpenAccess.Exceptions.AuthorizationException' occurred and was caught.
+----------------------------------------------------------------------------------------------------
+05/11/2021 17:17:58
+Type : Telerik.OpenAccess.Exceptions.AuthorizationException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.)
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.) ---> System.Data.SqlClient.SqlException: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.) ---> System.ComponentModel.Win32Exception: No process is on the other end of the pipe
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8f17b89bb34e40b7a279914050a91a92.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 11/05/2021 09:17:58
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651982242855059
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.)
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 233
+	ArrayBindIndex : -1
+	Number : 233
+	ObjectId : 
+	Description : A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.)
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.)
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : ddb8b7c1-7b50-4ddd-8995-21f40e97061e
+		Class : 20
+		LineNumber : 0
+		Number : 233
+		Procedure : 
+		Server : MTNB708\MTNB708
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : No process is on the other end of the pipe
+			Source : 
+			Help link : 
+			NativeErrorCode : 233
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651982242855059
+
+ProcessId: 24700
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3628
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 11/05/2021 09:18:28
+
+Message: HandlingInstanceID: 281a19f9-61c4-4ca5-ba71-1fc8316c37f8
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+05/11/2021 17:18:28
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8f17b89bb34e40b7a279914050a91a92.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 11/05/2021 09:18:28
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651982242855059
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors. ---> System.Data.SqlClient.SqlException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	Reason : Runtime
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlScript(String script, Connection con, SqlDriver sqlDriver, Boolean noShredder)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 5170
+		ArrayBindIndex : -1
+		Number : 5170
+		ObjectId : 
+		Description : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 executeUpdate(System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : 5f5cf9a5-d27f-4f3d-9216-b445a015f473
+			Class : 16
+			LineNumber : 1
+			Number : 5170
+			Procedure : 
+			Server : MTNB708\MTNB708
+			State : 1
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+			   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+			   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651982242855059
+
+ProcessId: 24700
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3628
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 11/05/2021 09:18:28
+
+Message: Timestamp: 11/05/2021 09:18:28
+Message: Telerik.OpenAccess.OpenAccessException: Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors. ---> Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors. ---> Telerik.OpenAccess.RT.sql.SQLException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors. ---> System.Data.SqlClient.SqlException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+   --- End of inner exception stack trace ---
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlScript(String script, Connection con, SqlDriver sqlDriver, Boolean noShredder)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   --- End of inner exception stack trace ---
+   at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8f17b89bb34e40b7a279914050a91a92.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.ResolveProvider(String providerName, String dataSourceName)
+   at Telerik.Sitefinity.Data.ManagerBase`1.SetProvider(String providerName, String transactionName)
+   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+   at Telerik.Sitefinity.Data.Metadata.MetadataManager..ctor()
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: MTNB708
+App Domain: /LM/W3SVC/2/ROOT-1-132651982242855059
+ProcessId: 24700
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:3628
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651982242855059
+
+ProcessId: 24700
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3628
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 11/05/2021 09:18:59
+
+Message: HandlingInstanceID: c7535a5e-86f9-4b8a-b488-cb6ef2ec1097
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+05/11/2021 17:18:59
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8f17b89bb34e40b7a279914050a91a92.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 11/05/2021 09:18:59
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651982242855059
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors. ---> System.Data.SqlClient.SqlException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	Reason : Runtime
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlScript(String script, Connection con, SqlDriver sqlDriver, Boolean noShredder)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 5170
+		ArrayBindIndex : -1
+		Number : 5170
+		ObjectId : 
+		Description : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 executeUpdate(System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : 0198634c-7982-4b86-ab2e-1c1279ff0f9d
+			Class : 16
+			LineNumber : 1
+			Number : 5170
+			Procedure : 
+			Server : MTNB708\MTNB708
+			State : 1
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+			   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+			   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651982242855059
+
+ProcessId: 24700
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:27640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 11/05/2021 09:19:29
+
+Message: HandlingInstanceID: 6fd910e3-e2a3-4819-8d2b-7b9fba3abc83
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+05/11/2021 17:19:29
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8f17b89bb34e40b7a279914050a91a92.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 11/05/2021 09:19:29
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651982242855059
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : SQL exception on 'CREATE DATABASE SiteFinityDemoDB' : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors. ---> System.Data.SqlClient.SqlException: Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	Reason : Runtime
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlScript(String script, Connection con, SqlDriver sqlDriver, Boolean noShredder)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2020.0.428.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 5170
+		ArrayBindIndex : -1
+		Number : 5170
+		ObjectId : 
+		Description : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 executeUpdate(System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Cannot create file 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLSERVER2012\MSSQL\DATA\SiteFinityDemoDB.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : e8125dc5-aecf-46de-aa17-06607f97d147
+			Class : 16
+			LineNumber : 1
+			Number : 5170
+			Procedure : 
+			Server : MTNB708\MTNB708
+			State : 1
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+			   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+			   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651982242855059
+
+ProcessId: 24700
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:27640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8eaf406c-05f5-40fa-943a-7bca277e3889
+
+Timestamp: 5/11/2021 9:23:12 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-2-132651985510500513
+
+ProcessId: 24700
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3628
+
+Extended Properties: 
+----------------------------------------

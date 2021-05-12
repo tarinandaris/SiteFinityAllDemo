@@ -1,0 +1,1452 @@
+----------------------------------------
+ActivityId: 0fadc73c-cef8-4e95-8aad-0e09d4a4add0
+
+Timestamp: 5/10/2021 2:07:07 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/1/ROOT-1-132650855706025145
+
+ProcessId: 18300
+
+Process Name: C:\Program Files (x86)\IIS Express\IISExpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16948
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 70ec8948-0856-4f65-a4f2-0871377cb5ec
+
+Timestamp: 5/10/2021 2:35:47 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650876661618834
+
+ProcessId: 2364
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11488
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c5cb6085-5305-41ef-b718-6891fafe987e
+
+Timestamp: 5/10/2021 3:13:09 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650899128978056
+
+ProcessId: 17056
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:42476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3294304b-eb6e-42e4-a2b1-c94216abb75b
+
+Timestamp: 5/10/2021 3:26:10 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650906914145218
+
+ProcessId: 8360
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:33652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 05672de5-2146-408a-94a3-099ee9e8fd33
+
+Timestamp: 5/10/2021 3:34:05 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650911701418054
+
+ProcessId: 16924
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:33552
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e317b3fe-810a-420b-9ba0-ddb2b85a49ff
+
+Timestamp: 5/10/2021 3:47:00 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650919396337802
+
+ProcessId: 41608
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 095889d9-5d30-4a7d-a3f8-4379a8eae7fa
+
+Timestamp: 5/10/2021 3:52:23 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650922636747251
+
+ProcessId: 32028
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:41208
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bf3ebf82-80ba-462e-b888-a822b41f6848
+
+Timestamp: 5/10/2021 3:57:29 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650925694127163
+
+ProcessId: 22000
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31428
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4437c24c-b1dd-4239-b56d-b95930fc8549
+
+Timestamp: 5/10/2021 4:15:56 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650936726884178
+
+ProcessId: 20808
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:29016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1ea939a6-bd65-4b58-b791-55b8ae77dfe0
+
+Timestamp: 5/10/2021 4:16:09 AM
+
+Message: HandlingInstanceID: 57a46052-3c3c-4b73-b454-545e43ac5df8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/10/2021 12:16:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 4:16:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132650936726884178
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650936726884178
+
+ProcessId: 20808
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:43660
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f29dcd31-04ba-4fa1-808c-9873ce4dacab
+
+Timestamp: 5/10/2021 4:19:41 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650939000784808
+
+ProcessId: 17064
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14424
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ed9145b1-27f7-4683-a27a-573c1f845922
+
+Timestamp: 5/10/2021 4:22:54 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650940911963424
+
+ProcessId: 41328
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:45784
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8a70659b-99d1-40db-9bb5-6d4797115d01
+
+Timestamp: 5/10/2021 4:23:09 AM
+
+Message: HandlingInstanceID: ee3fb34e-e7e6-48c0-8fe3-ae5d861d5771
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/10/2021 12:23:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 4:23:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132650940911963424
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650940911963424
+
+ProcessId: 41328
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:45784
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 21b6bf26-ccf9-4859-8948-b15b1dfddc0e
+
+Timestamp: 5/10/2021 5:08:32 AM
+
+Message: HandlingInstanceID: 38fc231f-309f-4ecc-b9c3-c395ebc13e89
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/10/2021 13:08:32
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b220ae9c\6828747\App_Web_index.cshtml#bootstrap4.cshtml.dce415fc.6egf3r3s.0.cs(53): error CS1061: 'System.Collections.Generic.IEnumerable<SitefinityWebApp.Mvc.Models.Personal>' does not contain a definition for 'FirstName' and no extension method 'FirstName' accepting a first argument of type 'System.Collections.Generic.IEnumerable<SitefinityWebApp.Mvc.Models.Personal>' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.RenderWithPerformanceMeasurement(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 5:08:32 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132650940911963424
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/home/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650940911963424
+
+ProcessId: 41328
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:48312
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c90d15af-e684-4c8a-b02c-a3fdbd8a37b2
+
+Timestamp: 5/10/2021 5:12:32 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650970585098352
+
+ProcessId: 45880
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17436
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 37ed3e6d-faf1-4dbd-bdd1-44086220b705
+
+Timestamp: 5/10/2021 5:12:47 AM
+
+Message: HandlingInstanceID: 26046155-44f4-4be9-833f-4fa01fa5bead
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/10/2021 13:12:47
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 5:12:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132650970585098352
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650970585098352
+
+ProcessId: 45880
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:30740
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 47a9fa61-2b1f-42ab-b870-1af31689206f
+
+Timestamp: 5/10/2021 5:45:05 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650990047527861
+
+ProcessId: 33348
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:48556
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ad84e402-9ffb-4d51-b920-1bf23880befa
+
+Timestamp: 5/10/2021 5:45:19 AM
+
+Message: HandlingInstanceID: 797a2e66-2f7b-4d44-b824-07b9d3d8e805
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/10/2021 13:45:19
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 5:45:19 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132650990047527861
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132650990047527861
+
+ProcessId: 33348
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:30268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/05/2021 06:13:31
+
+Message: HandlingInstanceID: 9b8b0398-e4fb-4081-b188-170b129bfc41
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/10/2021 14:13:31
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An error occurred while executing InitializeDefaultData() method for provider 'OpenAccessDataProvider' of type 'DynamicModule.ns.Wrapped_OpenAccessEventProvider_09e9e28802ba403dbc894ef52328ec97': Thread was being aborted.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 10/05/2021 06:13:31
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651007006480310
+ThreadIdentity : Anonymous
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Unity_ILEmit_DynamicClasses
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <InitializeDefaultData_DelegateImplementation>__41(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+	HResult : -2146233040
+	Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessEventProvider_09e9e28802ba403dbc894ef52328ec97.<InitializeDefaultData_DelegateImplementation>__41(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass3_0.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+	   at Telerik.Sitefinity.Data.DataEventsCallHandler.Invoke(IMethodInvocation input, GetNextHandlerDelegate getNext)
+	   at Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler.Invoke(IMethodInvocation input, GetNextHandlerDelegate getNext)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.HandlerPipeline.Invoke(IMethodInvocation input, InvokeHandlerDelegate target)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.Invoke(IMethodInvocation input, GetNextInterceptionBehaviorDelegate getNext)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptionBehaviorPipeline.Invoke(IMethodInvocation input, InvokeInterceptionBehaviorDelegate target)
+	   at DynamicModule.ns.Wrapped_OpenAccessEventProvider_09e9e28802ba403dbc894ef52328ec97.InitializeDefaultData()
+	   at Telerik.Sitefinity.Data.DataProviderBase.OnInitialized()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651007006480310
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:32332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/05/2021 06:13:31
+
+Message: HandlingInstanceID: 575c97c8-af91-443a-b9a0-6092ad394241
+An exception of type 'Telerik.Microsoft.Practices.Unity.ResolutionFailedException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------------
+05/10/2021 14:13:31
+Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Modules.Libraries.BlobStorage.OpenAccessBlobStorageProvider", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: ThreadAbortException - Thread was being aborted.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Modules.Libraries.BlobStorage.OpenAccessBlobStorageProvider,(none)
+
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+TypeRequested : OpenAccessBlobStorageProvider
+NameRequested : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+HResult : -2146233088
+Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve(Type type)
+   at Telerik.Sitefinity.Data.ManagerBase`1.ResolveProvider(Type type)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 10/05/2021 06:13:31
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651007006480310
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : mscorlib
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Int32 GetMemberRefOfMethodInfo(System.Reflection.RuntimeModule, Int32, System.IRuntimeMethodInfo)
+	HResult : -2146233040
+	Stack Trace :    at System.Reflection.Emit.ModuleBuilder.GetMemberRefOfMethodInfo(RuntimeModule module, Int32 tr, IRuntimeMethodInfo method)
+	   at System.Reflection.Emit.ModuleBuilder.GetMemberRefOfMethodInfo(Int32 tr, RuntimeMethodInfo method)
+	   at System.Reflection.Emit.ModuleBuilder.GetMethodTokenNoLock(MethodInfo method, Boolean getGenericTypeDefinition)
+	   at System.Reflection.Emit.ModuleBuilder.GetMethodTokenInternal(MethodInfo method)
+	   at System.Reflection.Emit.ModuleBuilder.GetMethodTokenInternal(MethodBase method, IEnumerable`1 optionalParameterTypes, Boolean useMethodDef)
+	   at System.Reflection.Emit.ILGenerator.GetMethodToken(MethodBase method, Type[] optionalParameterTypes, Boolean useMethodDef)
+	   at System.Reflection.Emit.ILGenerator.EmitCall(OpCode opcode, MethodInfo methodInfo, Type[] optionalParameterTypes)
+	   at System.Reflection.Emit.ILGenerator.Emit(OpCode opcode, MethodInfo meth)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.MethodOverride.CreateDelegateImplementation(MethodInfo callBaseMethod)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.AddMethods()
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.GenerateType()
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.VirtualMethodInterceptor.CreateProxyType(Type t, Type[] additionalInterfaces)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.TypeInterceptionStrategy.PreBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651007006480310
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28048
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/05/2021 06:13:31
+
+Message: HandlingInstanceID: a119fea2-4f5b-426a-9288-a10f504181c0
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+05/10/2021 14:13:31
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, System.Type)
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 10/05/2021 06:13:31
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651007006480310
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651007006480310
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28048
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/05/2021 06:13:31
+
+Message: HandlingInstanceID: 031e05e2-23f3-4beb-9b12-16d07939cacd
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+05/10/2021 14:13:31
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Services.SystemManager.TryInitializeManager(Type managerType)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 10/05/2021 06:13:31
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651007006480310
+ThreadIdentity : 
+WindowsIdentity : MITRAIS\Tari_S
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651007006480310
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28048
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/05/2021 06:13:31
+
+Message: HandlingInstanceID: 91ec287d-5a71-41d9-9bf6-103c14fd9af5
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+05/10/2021 14:13:31
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.GetContractsInternal()
+   at Telerik.Sitefinity.Modules.Events.EventsModule.Telerik.Sitefinity.Web.Services.Contracts.ITypeSettingsProvider.GetTypeSettings()
+   at Telerik.Sitefinity.Web.Services.Contracts.TypeSettingsProviderRepo.GetContractsInternal()
+   at Telerik.Sitefinity.Utilities.ConcurrentProperty`1.get_Value()
+   at Telerik.Sitefinity.Web.Api.Configuration.ServiceElement.TryInitializeDefaultTypes(ConfigElement element)
+   at Telerik.Sitefinity.Configuration.ConfigElementCollection.EnsureDelayedInitialization()
+   at Telerik.Sitefinity.Configuration.ConfigElement.GetRawValue(ConfigProperty prop, PersistedValueWrapper& valueWrapper, Boolean skipDefaultValue)
+   at Telerik.Sitefinity.Configuration.ConfigElement.get_Item(ConfigProperty prop)
+   at Telerik.Sitefinity.Configuration.ConfigElement.get_Item(String propertyName)
+   at Telerik.Sitefinity.Web.Api.Configuration.ServiceElement.get_Types()
+   at Telerik.Sitefinity.Web.Api.Configuration.ServiceElement.Telerik.Sitefinity.Web.Api.OData.Model.Proxies.IServiceConfiguration.get_Types()
+   at Telerik.Sitefinity.Web.Api.OData.Model.Proxies.ServiceProxy..ctor(IServiceConfiguration copyFrom)
+   at Telerik.Sitefinity.Web.Api.OData.Routing.CompositeRoute.GetRoute(String routePrefix, IServiceConfiguration service)
+   at Telerik.Sitefinity.Web.Api.OData.Routing.CompositeRoute.GetRouteDataInternal(String virtualPathRoot, HttpRequestMessage request)
+   at Telerik.Sitefinity.Web.Api.OData.Routing.CompositeRoute.GetRouteData(String virtualPathRoot, HttpRequestMessage request)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 10/05/2021 06:13:31
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651007006480310
+ThreadIdentity : Anonymous
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651007006480310
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:32332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bb0c1631-93d0-44e1-af71-cda09bc22f34
+
+Timestamp: 5/10/2021 6:15:06 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-2-132651007793491987
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13712
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 5/10/2021 6:24:09 AM
+
+Message: HandlingInstanceID: 18f30122-b53d-4efc-bdf4-4c7cc4a8af8c
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+05/10/2021 14:24:09
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageDraftControl item with id decc4b67-f0fe-45ff-8aba-39862d1f1515 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_fa8078b6c371437ebd3fafcaedbfced3.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DeleteControl(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 6:24:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-132651007793491987
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/?package=Bootstrap4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-2-132651007793491987
+
+ProcessId: 46400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:44700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0221cacb-7ef3-456d-aca4-35a3350b08a6
+
+Timestamp: 5/10/2021 6:27:47 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651015738456854
+
+ProcessId: 45740
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12516
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5b1be57f-ed92-4997-8cd6-48a3bc739242
+
+Timestamp: 5/10/2021 7:18:48 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651046418619000
+
+ProcessId: 31032
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:45192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b5241d1a-9ade-4afb-8c56-65704245ff9c
+
+Timestamp: 5/10/2021 7:19:03 AM
+
+Message: HandlingInstanceID: e45c7f40-69fd-459f-a2ce-5b384f78002e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/10/2021 15:19:03
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/10/2021 7:19:03 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651046418619000
+ThreadIdentity : tarinandari@gmail.com
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651046418619000
+
+ProcessId: 31032
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5152
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 054b905c-b54f-4d65-8d71-10644b803491
+
+Timestamp: 5/11/2021 1:39:50 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651707056860756
+
+ProcessId: 43628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:50652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 059234a8-8ce7-4091-bc28-6a7b50f24f0b
+
+Timestamp: 5/11/2021 1:40:05 AM
+
+Message: HandlingInstanceID: a17aa57a-ad27-4b96-b837-c1f5705719d9
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/11/2021 09:40:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Type 'ASP._Page_Mvc_Views_Personal_Index_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAssignableType(System.Type, System.Type)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MTNB708
+TimeStamp : 5/11/2021 1:40:05 AM
+FullName : Telerik.Sitefinity.Utilities, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132651707056860756
+ThreadIdentity : Anonymous
+WindowsIdentity : MITRAIS\Tari_S
+Requested URL : http://localhost:60876/Mvc/Views/Personal/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651707056860756
+
+ProcessId: 43628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:53944
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a91c790b-005f-4250-9f4e-735a0206dc6f
+
+Timestamp: 5/11/2021 1:51:55 AM
+
+Message: IdentityServer signing certificate is not configured. System will be using default IdentityServer certificate
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: MTNB708
+
+App Domain: /LM/W3SVC/2/ROOT-1-132651714357693653
+
+ProcessId: 53060
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31588
+
+Extended Properties: 
+----------------------------------------
